@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include "GameObject.h"
 
-class Alien : virtual public GameObject
+class Alien : virtual public GameObject //Класс отвечает за создание противников.
 {
 	Alien();
 	char getLetter() { return m_letter; }
