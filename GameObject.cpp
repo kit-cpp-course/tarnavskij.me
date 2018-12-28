@@ -2,11 +2,6 @@
 
 ///class gameObject
 
-GameObject::GameObject()
-{
-	
-}
-
 void GameObject::render(RenderSystem* rs)
 {
 	int row = int(m_y);
