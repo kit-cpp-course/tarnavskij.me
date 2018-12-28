@@ -11,8 +11,6 @@
 	class GameObject
 	{
 	public:
-		GameObject();//конструктор
-
 		void render(RenderSystem* rs);
 		void GameObject::render(RenderSystem* rs);
 		void GameObject::update(float dt);
